@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Language Translator</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="./livelan.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="language">
+            <div class="fromread">
+                <ul class="options">
+                    <select name="" id="">
+
+                    </select>
+                </ul>
+
+            </div>
+            <div class="converter">
+                <span id="sync_alt" class="material-symbols-outlined">
+                    sync_alt
+                </span>
+            </div>
+            <div class="toread">
+                <ul class="options">
+                    <select name="" id="">
+
+                    </select>
+                </ul>
+
+            </div>
+        </div>
+        <div class="textareas">
+            <div class="lefttext">
+                <textarea maxlength="500px" class="leftext"></textarea>
+                <span id="voice1" class="material-symbols-outlined">
+                    volume_up
+                </span>
+            </div>
+            <div class="righttext">
+                <textarea maxlength="500px" class="rightext"></textarea>
+                <span id="voice2" class="material-symbols-outlined">
+                    volume_up
+                </span>
+            </div>
+        </div>
+        <div class="btn">
+            <button id="btn">Translate</button>
+
+        </div>
+        
+    </div>
+    <script src="./languages.js"></script>
+    <script src="./livelan.js"></script>
+
+
+</body>
+
+</html>
